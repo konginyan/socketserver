@@ -8,8 +8,8 @@ class Timer(object):
     def __init__(self):
         self.tasks = []
 
-    def add_task(self, task, delay):
-        heapq.heappush(self.tasks, TimeTask(task, delay))
+    def add_task(self, task, delay, repeatable=False):
+        heapq.heappush(self.tasks, TimeTask(task, delay, repeatable))
 
     def run(self):
         while self.tasks and self.tasks[0].can_run():
@@ -20,12 +20,16 @@ class Timer(object):
                 raise TaskRunError(e)
             else:
                 if task.repeatable:
-                    heapq.heappush(task)
+                    heapq.heappush(self.tasks, task)
+
+    def run_ever(self):
+        while True:
+            self.run()
 
 
 class TimeTask(object):
 
-    def __init__(self, task, delay, repeatable=False):
+    def __init__(self, task, delay, repeatable):
         if callable(task):
             self.task = task
             self.delay = delay
@@ -38,7 +42,7 @@ class TimeTask(object):
         return self.timeout < other.timeout
 
     def can_run(self):
-        return self.timeout >= time.time()
+        return self.timeout <= time.time()
     
     def run(self):
         self.task()
@@ -58,7 +62,7 @@ class TaskNotFunctionError(Exception):
 class TaskRunError(Exception):
 
     def __init__(self, exception):
-        super().__init__(self)
+        super(TaskRunError, self).__init__(self)
         self.exception = exception
 
     def __str__(self):

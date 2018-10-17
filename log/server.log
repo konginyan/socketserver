@@ -1,0 +1,61 @@
+Mon, 15 Oct 2018 11:47:12 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:13 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:13 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:14 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:14 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:15 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:15 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:16 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:16 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:17 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 11:47:17 selectSystem.py[line:12] INFO selecting...
+Mon, 15 Oct 2018 17:11:18 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:12:50 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:13:28 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:15:03 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:15:20 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:15:53 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:16:03 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:16:55 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:18:27 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:18:39 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:20:01 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:21:05 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:21:56 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:22:55 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:25:39 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:28:12 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:29:35 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:34:35 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:37:26 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:38:28 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:40:20 commonSocket.py[line:29] INFO listening on 10000
+Mon, 15 Oct 2018 17:40:34 commonSocket.py[line:29] INFO listening on 10000
+Mon, 15 Oct 2018 17:43:40 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:46:20 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:46:53 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 17:49:28 commonSocket.py[line:28] INFO listening on 10000
+Mon, 15 Oct 2018 18:59:06 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:13:10 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:13:18 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:14:44 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:15:20 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:15:29 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:18:47 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:18:55 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:20:32 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:21:40 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:22:06 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:22:40 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:25:02 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:25:50 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:26:40 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:27:35 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:27:41 selectSystem.py[line:36] INFO connected by socket 127.0.0.1:56418
+Mon, 15 Oct 2018 19:28:08 commonSocket.py[line:27] INFO listening on 10000
+Mon, 15 Oct 2018 19:28:15 selectSystem.py[line:36] INFO connected by socket 127.0.0.1:56427
+Tue, 16 Oct 2018 17:31:14 commonSocket.py[line:27] INFO listening on 10000
+Wed, 17 Oct 2018 10:24:44 commonSocket.py[line:27] INFO listening on 10000
+Wed, 17 Oct 2018 10:25:47 commonSocket.py[line:27] INFO listening on 10000
+Wed, 17 Oct 2018 10:47:12 commonSocket.py[line:27] INFO listening on 10000
+Wed, 17 Oct 2018 10:54:36 commonSocket.py[line:27] INFO listening on 10000

@@ -1,8 +1,10 @@
 # coding:utf-8
 import time
 import heapq
+from util.singleton import singleton
 
 
+@singleton
 class Timer(object):
 
     def __init__(self):
@@ -17,7 +19,7 @@ class Timer(object):
             try:
                 task.run()
             except Exception as e:
-                raise TaskRunError(e)
+                raise TaskRunError(e, task.get_task_name())
             else:
                 if task.repeatable:
                     heapq.heappush(self.tasks, task)
@@ -49,6 +51,9 @@ class TimeTask(object):
         if self.repeatable:
             self.timeout = time.time() + self.delay
 
+    def get_task_name(self):
+        return self.task.__name__
+
 
 class TaskNotFunctionError(Exception):
 
@@ -61,9 +66,10 @@ class TaskNotFunctionError(Exception):
 
 class TaskRunError(Exception):
 
-    def __init__(self, exception):
+    def __init__(self, exception, task):
         super(TaskRunError, self).__init__(self)
-        self.exception = exception
+        self.exception = repr(exception)
+        self.task = task
 
     def __str__(self):
-        return 'task raise %s while runing' % self.exception
+        return 'task raise %s while runing %s' % (self.exception, self.task)

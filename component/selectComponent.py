@@ -15,7 +15,7 @@ class SelectComponent(Component):
         self.client_dict = {}
         self.init_socket(config)
 
-    def init_socket(self, conf):
-        self.socket_obj = Socket(conf)
+    def init_socket(self, config):
+        self.socket_obj = Socket(config)
         self.socket = self.socket_obj.socket
         self.read_list.append(self.socket)  # 将 socket 加入到监听的列表

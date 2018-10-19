@@ -53,6 +53,5 @@ class SystemManager(object):
                 sy.scan(en)
 
     def update(self):
-        timer = Timer()
-        timer.add_task(self.scan, PER_FRAME, True)
-        timer.run_ever()
+        Timer().add_task(self.scan, PER_FRAME, True)
+        Timer().run_ever()

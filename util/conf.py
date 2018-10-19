@@ -11,3 +11,9 @@ CONNECTED = 1
 SERVER_CONF = 'config/server.conf'
 CLIENT_CONF = 'config/client.conf'
 LOGGER_CONF = 'config/logger.conf'
+
+# daemon-process args-index
+DAEMON_HEATBEAT = 0
+DAEMON_FEEDBACK = 1
+DAEMON_COMMAND = 2
+DAEMON_HEATBEAT_RATE = 1

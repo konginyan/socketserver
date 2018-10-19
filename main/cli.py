@@ -15,11 +15,11 @@ class Command(object):
 
     def start_server(self, conf=conf.SERVER_CONF):
         sysm = SystemManager()
-        engine.init_base_server(sysm, conf)
+        engine.init_server_proc(sysm, conf)
 
-    def start_client(self, conf=conf.CLIENT_CONF):
-        sysm = SystemManager()
-        engine.init_base_client(sysm, conf)
+    # def start_client(self, conf=conf.CLIENT_CONF):
+    #     sysm = SystemManager()
+    #     engine.init_base_client(sysm, conf)
 
 
 fire.Fire(Command)
